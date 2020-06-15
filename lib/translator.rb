@@ -22,7 +22,8 @@ end
    new_hash = load_library(file_path)
    new_hash.each do |emo_name, faces|
      if faces[:japanese] == emoticon
-       
+       return emo_name
+     end
  end
 
 def get_japanese_emoticon(file_path, emoticon)
