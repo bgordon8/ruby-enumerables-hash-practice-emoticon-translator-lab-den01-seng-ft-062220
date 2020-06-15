@@ -26,13 +26,13 @@ end
      end
  end
 
-def get_japanese_emoticon(file_path, emoticon)
-  emoji_list = load_library(file_path)
-  emoji_list.each do |emoji_name, translations|
-    if translations[:english] == emoticon
-      return translations[:japanese]
-    end
-  end
-  "Sorry, that emoticon was not found"
-end
+# def get_japanese_emoticon(file_path, emoticon)
+#   emoji_list = load_library(file_path)
+#   emoji_list.each do |emoji_name, translations|
+#     if translations[:english] == emoticon
+#       return translations[:japanese]
+#     end
+#   end
+#   "Sorry, that emoticon was not found"
+# end
 
