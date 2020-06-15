@@ -25,7 +25,7 @@ end
        return emo_name
      end
  end
-
+end
 # def get_japanese_emoticon(file_path, emoticon)
 #   emoji_list = load_library(file_path)
 #   emoji_list.each do |emoji_name, translations|
